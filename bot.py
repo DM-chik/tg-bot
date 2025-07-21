@@ -14,7 +14,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def cmd_start(message: Message):
-    await message.answer("Привет! Я твой первый бот на aiogram! ✨")
+    await message.answer("Привет! Я твой рот ебал на aiogram! ✨")
 
 
 @dp.message(Command("help"))
